@@ -1,0 +1,31 @@
+form
+{
+	width: 40%;
+	background-color: black;
+	height: 35vh;
+	position: absolute;
+	top:30%;
+	left: 30%;
+	color:white;
+	text-align: center;
+	opacity: 0.9;
+	padding:10px;
+}
+form input
+{
+	background: none;
+	outline: none;
+	border:1px solid red;
+	text-align: center;
+	padding:5px;
+	border-radius: 24px;
+	
+	transition: 0.29s;
+		color:white;
+}
+form input:focus
+{
+
+	border:1px solid blue;
+	width:50%;
+}

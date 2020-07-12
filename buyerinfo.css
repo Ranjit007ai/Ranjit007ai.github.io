@@ -1,0 +1,217 @@
+/*Css for the mobile size first*/
+body
+{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+a
+{
+	color:white;
+	text-decoration: none;
+}
+header
+{
+	width:100%;
+	background: #111;
+	color:#fff;
+}
+
+header .one
+{
+	display: flex;
+	width: 100%;
+}
+header .one .logo
+{
+	
+	color: yellow;
+	margin-left: 3%;
+	margin-top:3%;
+	font-size: 20px;
+	line-height: 3;
+	flex: 1;
+}
+
+header .one .account
+{
+	margin-top:30px;
+	color: lightgreen;
+	text-align: right;
+	margin-right:30px;
+	flex: 1;	
+}
+/*Search bar*/
+#search
+{
+
+	margin-left: 5%;
+	padding:2%;
+}
+#search_input
+{
+	width: 55%;
+	text-align: center;
+}
+
+#search_input:focus
+{
+	
+	transition: 0.3s;
+	width:66%;
+	border-radius: 24px;
+	outline: none;
+	border:1px solid blue;
+
+}
+
+/*For the ul link*/
+header .link .link_child
+{
+	
+	display: flex;
+	padding:10px;
+}
+header .link .link_child .a
+{
+	
+	text-align: left;
+	flex: 1;
+	
+}
+/*for hovering on the link change color to yellow*/
+header .link .link_child .a a:hover
+{
+	color:yellow;
+}
+
+/*for middle and product list*/
+.middle
+{
+	width:100%;
+	text-align: center;
+}
+.middle .person_info
+{
+	width: 70%;
+	margin:4% auto;
+	display: flex;
+	flex-direction: column;
+	padding:4%;
+
+}
+.middle .person_info:hover
+{
+
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0.2);
+}
+.middle .person_info .image
+{
+
+	flex: 1;
+}
+
+.middle .person_info .info
+{
+	flex: 2;
+}
+
+.middle .person_info strong
+{
+	color:blue;
+}
+/*Media query for the desktop size*/
+
+
+@media only screen and (min-width: 500px)
+{
+
+
+
+		header .one .logo
+		{
+			
+			margin-top:0%;
+			font-size: 40px;
+			line-height: 3;
+			flex: 1;
+		}
+
+		header .one .account
+		{
+			margin-top:40px;
+			color: lightgreen;
+			text-align: right;
+			padding-right:30px;
+			flex: 1;	
+		}
+		/*Search bar*/
+		#search
+		{
+
+			margin-left: 5%;
+			padding:1%;
+			text-align: center;
+		}
+		#search_input
+		{
+			width: 30%;
+			text-align: center;
+		}
+
+		#search_input:focus
+		{
+			
+			transition: 0.3s;
+			width:40%;
+			border-radius: 24px;
+			outline: none;
+			border:1px solid blue;
+
+		}
+
+
+		/*For the ul link*/
+		header .link
+		{
+			display: flex;
+		}
+		header .link .link_child
+		{
+			flex: 1;
+			display: flex;
+			padding:10px;
+		}
+		header .link .link_child .a
+		{
+			flex: 1;
+			text-align: center;
+			font-size: 20px;
+			
+		}	
+
+
+		/*for middle and product list*/
+		.middle .person_info
+		{
+		
+			width: 70%;
+			margin:0% auto;
+			flex-direction: row;
+			padding:1%;
+
+		}
+		.middle .person_info .image
+		{
+			
+			flex: 1;
+		}
+
+		.middle .person_info .info
+		{
+			margin-top: 100px;
+		}
+
+
+
+}

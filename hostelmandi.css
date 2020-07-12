@@ -1,0 +1,127 @@
+/*Css for the mobile size first*/
+body
+{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+a
+{
+	color:white;
+	text-decoration: none;
+}
+header
+{
+	width:100%;
+	background: #111;
+	color:#fff;
+}
+header .one
+{
+	display: flex;
+	width: 100%;
+}
+header .one .logo
+{
+	color: yellow;
+	padding:10px;
+	font-size: 20px;
+	line-height: 3;
+	flex: 1;
+}
+
+header .one .account
+{
+	margin-top:30px;
+	color: lightgreen;
+	text-align: right;
+	margin-right:30px;
+	flex: 1;	
+}
+
+/*For the ul link*/
+header .link .link_child
+{
+	
+	display: flex;
+	padding:10px;
+}
+header .link .link_child .a
+{
+	
+	text-align: left;
+	flex: 1;
+	
+}
+/*for hovering on the link change color to yellow*/
+header .link .link_child .a a:hover
+{
+	color:yellow;
+}
+
+/*for middle*/
+.middle
+{
+	background-image: url('download.jpg');
+	background-position: center;
+	background-size: fit;
+	
+	height: 100vh;
+}
+.middle .content
+{
+	padding:2%;
+	
+	color:white;
+	font-weight: bold;
+	font-family: verdana;	
+}
+/*Media query for the desktop size*/
+
+
+@media only screen and (min-width: 500px)
+{
+	
+		header .one
+		{
+			display: flex;
+			width: 100%;
+		}
+		header .one .logo
+		{
+			padding:10px;
+			margin-left: 5%;
+			color:yellow;
+			font-size: 40px;
+			line-height: 3;
+			flex: 1;
+		}
+
+		header .one .account
+		{
+			margin-top:3%;
+			text-align: right;
+			margin-right:10%;
+			flex: 1;	
+		}
+
+		/*For the ul link*/
+		header .link
+		{
+			display: flex;
+		}
+		header .link .link_child
+		{
+			flex: 1;
+			display: flex;
+			padding:10px;
+		}
+		header .link .link_child .a
+		{
+			flex: 1;
+			text-align: center;
+			font-size: 20px;
+			
+		}	
+
+}
