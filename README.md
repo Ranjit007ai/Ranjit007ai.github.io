@@ -3,8 +3,14 @@
 - Its Functionality is Somehow similar to the Olx,and its Front-end-design is similar to Amazon.
 - The Front-end-design of this website is done using HTML,CSS.
 - The Back-end part of this website is done using MYSQL,PHP.
+![Screenshot (123)](https://user-images.githubusercontent.com/65400780/87242954-26c31100-c44f-11ea-83fb-97ba7b10363b.png)
+
 ![Screenshot (134)](https://user-images.githubusercontent.com/65400780/87242840-270edc80-c44e-11ea-8d0f-cc917ffc5b71.png)
 ![Screenshot (131)](https://user-images.githubusercontent.com/65400780/87242868-63423d00-c44e-11ea-9537-81e95f6abc8b.png)
+![Screenshot (130)](https://user-images.githubusercontent.com/65400780/87242965-3f332b80-c44f-11ea-8a2c-0da8dd7df661.png)
+![Screenshot (140)](https://user-images.githubusercontent.com/65400780/87242975-583bdc80-c44f-11ea-9200-7e8af4161b91.png)
+
+
 
 
 ## How  to Use This website:
